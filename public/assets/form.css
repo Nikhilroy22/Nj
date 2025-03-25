@@ -1,0 +1,42 @@
+
+ .form-container{
+   margin: 0 auto;
+   max-width: 600px;
+  padding: 10px 10px;
+  text-align: center;
+  }
+  .input-form{
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+    border-radius: 5px;
+    
+  }
+  .button {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #1a4c7d;
+    width: 100%;
+    font-size: 25px;
+}
+.wrap {
+  gap: 1rem;
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.forgot{
+  padding-left: 10px;
+  font-size: 20px;
+  margin-bottom: 6px;
+}

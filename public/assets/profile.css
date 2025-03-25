@@ -1,0 +1,82 @@
+.profile-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .pheader {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .pheader .user-info img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+       .pheader .user-info .name {
+            font-size: 30px;
+            font-weight: bold;
+        }
+      .pheader  .user-info .tkbalance {
+            font-size: 20px;
+            color: #666;
+        }
+        .actions {
+            margin-top: 10px;
+        }
+        .actions button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        .actions .my-bets {
+            background-color: #007bff;
+            color: #fff;
+            margin-right: 10px;
+        }
+        .actions .deposit {
+            background-color: #28a745;
+            color: #fff;
+        }
+        
+         .pcontent {
+            padding: 20px;
+        }
+         .pcontent .psection {
+            margin-bottom: 20px;
+        }
+        .pcontent .psection h3 {
+            font-size: 30px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .pcontent .psection .pul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .pcontent .psection .pul li {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .pcontent .psection .pul a:hover {
+  color: #50983df5;
+}
+         .pcontent .psection .pul li i {
+            font-size: 30px;
+            color: #007bff;
+            margin-right: 10px;
+        }
+        .pcontent .psection .pul li .text {
+            font-size: 20px;
+            
+        }

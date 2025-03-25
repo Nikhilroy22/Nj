@@ -1,0 +1,25 @@
+@import "Nikhil.css";
+@import "navbar.css";
+@import "navmenu.css";
+@import "footer.css";
+@import "post.css";
+@import "form.css";
+@import "Add_Post.css";
+
+@import "modal.css";
+@import "profile.css";
+
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+            
+ }
+ 
+ 
+ body{
+   
+ }

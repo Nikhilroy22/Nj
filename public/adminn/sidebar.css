@@ -1,0 +1,63 @@
+.modal {
+ /* Hidden by default */
+ display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+   /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  
+}
+
+.n2{
+  
+  height: 100%;
+ width: 250px;
+ top: 0;
+ right: 0;
+ position: absolute;
+ background: #1a4c7d79;
+ z-index: 1;
+ transition: 0.5s ease;
+ transform: translateX(0);
+}
+.close{
+  color: red;
+  height: 6%;
+ width: 18%;
+ right: 0;
+ background-color: ;
+ margin-right: 250px;
+ position: absolute;
+ font-size: 30px;
+ top:0px;
+ transition: 0.6s ease;
+ transform: translateX(0);
+   text-align: center;
+}
+.catnav{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.catlist{
+  display: block;
+  margin-bottom: 10px;
+  
+}
+.catlist a{
+  color: #fff;
+}
+.active{
+  background-color: #1470d3;
+}
+
+.no-scroll{
+  overflow: hidden;
+}
