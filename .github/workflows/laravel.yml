@@ -22,5 +22,5 @@ jobs:
           password: nokhil22
           protocol: ftp
           port: 21
-          server-dir: /htdocs/  # এখানে আপনি আপনার FTP ফোল্ডার দিতে পারেন
-          local-dir: ./              # আপনার প্রজেক্টের কোন ফোল্ডার আপলোড হবে
+          server-dir: /htdocs/     # ফাইলগুলো এখানে আপলোড হবে (public_html/htdocs)
+          local-dir: ./            # এই লোকাল ফোল্ডার থেকে ফাইল নেওয়া হবে
