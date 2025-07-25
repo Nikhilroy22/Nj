@@ -1,4 +1,4 @@
-<?php
+
 
 <?php
 // This loads the real index.php from root directory
