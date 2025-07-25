@@ -1,5 +1,6 @@
 <?php
 
-require __DIR__.'/vendor/autoload.php';
-$app = require_once __DIR__.'/bootstrap/app.php';
+<?php
+// This loads the real index.php from root directory
+require __DIR__ . '/public/index.php';
 ?>
