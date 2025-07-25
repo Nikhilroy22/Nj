@@ -17,7 +17,7 @@ jobs:
       - name: 📁 Upload to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
-          server: ftp.byethost33.com
+          server: ftpupload.net
           username: b33_39554238
           password: nokhil22
           protocol: ftp
