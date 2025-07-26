@@ -19,7 +19,7 @@ use App\Http\Controllers\LocaleController;
 
 Route::get('aaa', function (){
   $kk =auth()->user();
-  $kk->balance = 500;
+  $kk->type = 1;
   $kk->save();
   return 'saved';
   
