@@ -2,7 +2,7 @@
  @if(session('success'))
  <center>{{session('success')}}</center>
  @endif
-   <form method="post" action="signup" class="form-container">
+   <form method="post" action="{{ url("/signup") }}" class="form-container">
      @csrf
     <h1>Sign Up</h1>
     <input type="text" name="username" placeholder="Username" class="input-form"/>
