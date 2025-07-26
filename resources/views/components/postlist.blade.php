@@ -12,7 +12,7 @@
        · {{ $users->postby }}
       </span>
      </div>
-     <div class="news-title"><a href="/{{ $users->slug }}" wiree:navigate>
+     <div class="news-title"><a href="{{ url($users->slug) }}" wiree:navigate>
        {{ Str::limit($users->title, 70) }}
     
      </a>
