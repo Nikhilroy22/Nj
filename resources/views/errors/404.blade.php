@@ -23,7 +23,7 @@
       
   <div class="error">404</div>
 <h1>Not Found Page</h1>
-  <h2><a href="/">Home</a></h2>
+  <h2><a href="{{ url("/") }}">Home</a></h2>
     </div>
     
 </html>
