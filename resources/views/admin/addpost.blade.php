@@ -2,7 +2,7 @@
 <h1><center>Add Post</center></h1>
 
 
-<form method="post" action="/admin/addpost" class="kk" enctype="multipart/form-data">
+<form method="post" action="{{ url("/admin/addpost") }}" class="kk" enctype="multipart/form-data">
   
   @if(session('saved'))
 <span class="saved">{{session('saved')}}</span>
