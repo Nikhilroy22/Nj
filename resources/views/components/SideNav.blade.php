@@ -19,7 +19,7 @@
      <il class="catlist {{ request()->is('load-more-data') ? 'active':'' }}"><a href="/load-more-data" wiree:navigate>Load-more-data</a></il>
      @Auth
     @if(auth()->user()->type == 1)
-    <il class="catlist {{ request()->is('admin') ? 'active':'' }}"><a href="/admin">Admin Panel</a></il>
+    <il class="catlist {{ request()->is('admin') ? 'active':'' }}"><a href="{{ ("/admin") }}">Admin Panel</a></il>
     
     @endif
      @endauth
