@@ -15,7 +15,7 @@
     
       </a>
       
-      <a href="/send-money" class="nav-link link-active" wiree:navigate>
+      <a href="{{ url("/send-money") }}" class="nav-link link-active" wiree:navigate>
         <i class="fas fa-book {{ request()->is('send-money') ? 'hrcc':'' }}" style="font-size:26px;"></i>
         <div>News</div>
       </a>
@@ -29,7 +29,7 @@
       </a>
       
       
-       <a href="/profile" class="nav-link link-active" wiree:navigate>
+       <a href="{{ url("/profile") }}" class="nav-link link-active" wiree:navigate>
        <i class="fas fa-user-circle {{ request()->is('profile') ? 'hrcc':'' }}" style="font-size:26px;"></i>
        <div>profile</div>
       </a>
