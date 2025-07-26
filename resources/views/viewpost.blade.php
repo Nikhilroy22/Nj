@@ -50,7 +50,7 @@
  
  <div class="container">
    <div class="header">
-    <img alt="image" height="40" src="/profile.jpg" width="40"/>
+    <img alt="image" height="40" src="{{ url("/profile.jpg") }}" width="40"/>
     <div class="info">
      <div class="name">
       Nikhil Roy
