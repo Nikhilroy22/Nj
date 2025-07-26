@@ -1,12 +1,12 @@
 <x-nikhil>
    <x-slot name="title">{{ $data->title }}</x-slot>
- <!--
+ 
  @if( url()->previous() == asset($data->slug))
  <h1>not back</h1>
  @else
   <h1><a href="{{ url()->previous() }}" wiree:navigate>Back</a></h1>
  @endif
- -->
+ 
   <style>
   
         .container {
